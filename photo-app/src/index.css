@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.progress-bar {
+  height: 5px; 
+  background-color: cornflowerblue;
+  margin-top: 3rem;
+}
+
+.img-grid {
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-wrap img {
+  max-height: 20rem;
+}
