@@ -12,10 +12,37 @@ code {
     monospace;
 }
 
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+  font-size: 1.25em;
+  font-weight: 400;
+  color: white;
+  background-color: black;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+
 .progress-bar {
   height: 5px; 
   background-color: cornflowerblue;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 .img-grid {
@@ -24,6 +51,13 @@ code {
   flex-direction: column;
 }
 
+.img-wrap {
+  margin: 1rem;
+  overflow: hidden; 
+  position: relative;
+}
+
 .img-wrap img {
-  max-height: 20rem;
+  max-height: 30rem;
+  border-radius: 3px;
 }

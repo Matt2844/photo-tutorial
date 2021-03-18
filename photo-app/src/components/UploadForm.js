@@ -22,10 +22,10 @@ export default function UploadForm () {
 
   return (
     <form>
-      <label>
-        <input type="file" onChange={changeHandler} />
-        <span>+</span>
-      </label>
+      <div clasName="file-input">
+        <input type="file" id="file" className="inputfile" onChange={changeHandler} />
+        <label for="file">Select An Image</label>
+      </div>
       <div className="output">
         {error && (
           <div className="error">{error}</div>
