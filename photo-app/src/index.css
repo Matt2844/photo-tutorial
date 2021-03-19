@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
 
 .inputfile {
 	width: 0.1px;
@@ -60,4 +64,22 @@ code {
 .img-wrap img {
   max-height: 30rem;
   border-radius: 3px;
+}
+
+.profile-pic {
+  max-height: 25rem;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  text-align: unset;
+}
+
+.profile-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-wrap .text {
+  margin-top: 2rem;
+  margin-left: 5rem;
+  width: 25rem;
 }

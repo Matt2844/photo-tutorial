@@ -1,18 +1,23 @@
 import './App.css';
-import ImageGrid from './components/ImageGrid';
-import Title from './components/Title'
-import UploadForm from './components/UploadForm';
+import Home from './components/Home';
+import Photographers from './components/Photographers';
+import Blog from './components/Blog';
 import NavBar from './components/NavBar';
+import Contact from './components/Contact';
+import { Route } from 'react-router-dom';
 
 function App () {
   return (
     <div className="App">
       <NavBar />
-      <Title />
-      <UploadForm />
-      <ImageGrid />
+      <>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/photographers" component={Photographers} />
+        <Route exact path="/blog" component={Blog} />
+        <Route exact path="/contact" component={Contact} />
+      </>
     </div>
   );
 }
 
-export default App;
+export default App; 
