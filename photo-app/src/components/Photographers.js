@@ -5,7 +5,11 @@ export default function Photographers () {
 
   return (
     <div className="photographers-wrap-all">
-      <Profile />
+      <Profile name={'Sam'} />
+      <Profile name={'Sally'} />
+      <Profile name={'Ben'} />
+      <Profile name={'Joe'} />
+      <Profile name={'Sue'} />
     </div>
   )
 }
