@@ -18,12 +18,15 @@ a {
 }
 
 .nav-right {
-  border: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
   text-align: right;
-  margin: 1.5rem 3rem 0.5rem 3rem;
+  margin: 2.5rem 0rem 0.5rem 0rem;
   padding: 0.5rem;
-  border-radius: 4px;
-  
+  padding-right: 2rem;
+}
+
+.nav-right a {
+  margin-left: 3rem;
 }
 
 .inputfile {

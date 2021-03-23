@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import useFirestore from '../hooks/useFirestore';
-import firebase, { projectStorage } from '../firebase/config'
 import { Animated } from "react-animated-css";
 
 export default function ImageGrid () {

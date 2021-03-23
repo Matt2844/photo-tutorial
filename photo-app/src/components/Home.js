@@ -3,7 +3,7 @@ import Title from './Title'
 import UploadForm from './UploadForm';
 import ImageGrid from './ImageGrid';
 
-export default function Home () {
+export default function HomeGallery () {
 
   return (
     <div>
