@@ -17,6 +17,15 @@ a {
   color: white;
 }
 
+.nav-right {
+  border: 1px solid lightgrey;
+  text-align: right;
+  margin: 1.5rem 3rem 0.5rem 3rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  
+}
+
 .inputfile {
 	width: 0.1px;
 	height: 0.1px;
@@ -66,6 +75,12 @@ a {
   border-radius: 3px;
 }
 
+.photographer-name {
+  margin-top: -1rem;
+  font-size: 14px;
+  font-weight: 100;
+}
+
 .profile-pic {
   max-height: 25rem;
   margin-top: 3rem;
@@ -108,3 +123,5 @@ a {
   margin: 0.5rem;
   font-size: 14px;
 }
+
+
